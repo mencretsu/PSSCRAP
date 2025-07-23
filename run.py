@@ -2,7 +2,7 @@ from google_play_scraper import reviews, Sort
 from collections import Counter
 import csv
 
-app_id = input('ex: com.example.android')
+app_id = input('input id app (ex: com.example.android)\n:')
 
 # code ISO 3166
 all_countries = [
